@@ -4,6 +4,7 @@
     z-index: 1000;
     -webkit-transform: translateZ(0);
     height: 3em;
+    margin-top: -10px;
 }
 
 .inner {
