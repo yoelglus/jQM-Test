@@ -1,0 +1,26 @@
+.header, .footer{
+    background: red;
+    position: relative;
+    z-index: 1000;
+    -webkit-transform: translateZ(0);
+    height: 3em;
+}
+
+.inner {
+    padding-top: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.header {
+    top:0px;
+}
+
+.footer {
+
+}
+
+.content {
+
+}
