@@ -1,8 +1,6 @@
 .header, .footer{
     background: red;
     position: relative;
-    z-index: 1000;
-    -webkit-transform: translateZ(0);
     height: 3em;
     margin-top: -10px;
 }
@@ -14,14 +12,11 @@
     font-size: large;
 }
 
-.header {
-    top:0px;
-}
-
-.footer {
-
-}
-
 .content {
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+}
 
+body {
+	overflow:hidden;
 }
